@@ -1,0 +1,24 @@
+.candidate {
+  width: 16rem;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 2px solid var(--blue-color);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.candidate__name {
+  font-size: 20px;
+}
+
+.candidate__image {
+  width: 100%;
+}
+
+.candidate__button {
+  background-color: var(--blue-color);
+}
+
+.candidate__button:hover {
+  background-color: #4a5878;
+}
